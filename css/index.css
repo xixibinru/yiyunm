@@ -1,0 +1,348 @@
+#header {
+    width: 7.5rem;
+    height:11.18rem;
+    padding-top: 8rem;
+    background: url(../images/banner.jpg) no-repeat 0 0 /7.5rem 11.18rem;
+}
+
+
+#header .introduce{
+    padding-left: 2.73rem;
+}
+#header p {
+    line-height: 100%;
+    color: #fff;
+}
+
+#header p:nth-of-type(1) {
+    font-size: 0.3rem;
+
+}
+
+#header p:nth-of-type(2) {
+    font-size: 0.24rem;
+    margin-top: 0.34rem;
+
+}
+
+#header p:nth-of-type(3) {
+    margin-top: 0.52rem;
+    width: 2.2rem;
+    height:0.53rem;
+    background-color: #4cc3ff;
+    background: #4cc3ff url(../images/move.png) no-repeat center center;
+    background-size: 50%;
+
+}
+
+#company {
+    position: relative;
+    padding: 0.72rem 0.3rem 0.72rem 0.3rem;
+}
+
+#company::before {
+    position: absolute;
+    top: 3.95rem;
+    left: 0;
+    content: "公司简介";
+    width: 1.34rem;
+    line-height:0.74rem;
+    background-color: #4cc3ff;
+    font-size: 0.24rem;
+    text-align: center;
+    color: #fff;
+}
+
+#company::after {
+    position: absolute;
+    width: 4.91rem;
+    height:1.55rem;
+    left: 2rem;
+    top: 4.57rem;
+    content: '';
+    background: url(../images/YiYun.png) no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#company img {
+    width: 5.2rem;
+    height:3.53rem;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 1.36rem;
+}
+
+#company p {
+    width: 5.6rem;
+    margin: 0 auto;
+    font-size: 0.2rem;
+    line-height: 130%;
+    color: #bfbfbf;
+    text-indent: 2em;
+}
+
+#FAQ {
+    position: relative;
+    padding: 0.78rem 0.3rem 0 0.3rem;
+    background-color: #fff7e3;
+
+}
+
+#FAQ::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "解决方案";
+    width: 1.34rem;
+    line-height:0.74rem;
+    background-color: #4cc3ff;
+    font-size: 0.24rem;
+    text-align: center;
+    color: #fff;
+}
+
+#FAQ > h3 {
+    font-size: 0.3rem;
+    color: #000;
+    text-align: center;
+    line-height: 100%;
+    font-weight: 600;
+}
+
+#FAQ > p {
+    font-size: 0.2rem;
+    color: #b2b2b2;
+    text-align: center;
+    line-height: 100%;
+    padding-top: 0.2rem;
+}
+
+#FAQ > .slider {
+    margin-top: 0.7rem;
+    height:3.82rem;
+    overflow: hidden;
+}
+
+#FAQ .slider ul {
+    position: relative;
+}
+
+#FAQ .slider li {
+    width: 2rem;
+    height:2.6rem;
+    border: 1px solid #000;
+    padding-top: 0.26rem;
+    position: absolute;
+    background-color: #fff;
+}
+#FAQ .slider li.touch {
+    background-color: #000;
+}
+
+
+
+#FAQ .slider li i {
+    display: block;
+    width: 0.6rem;
+    height:0.6rem;
+    margin: 0 auto;
+}
+#FAQ .slider li.touch i {
+    background-position-x : 100%;
+}
+
+#FAQ .slider li h3 {
+    padding-top: 0.28rem;
+    font-size: 0.2rem;
+    line-height: 100%;
+    text-align: center;
+    color: #000;
+}
+#FAQ .slider li.touch h3 {
+    color: #fff;
+}
+
+#FAQ .slider li p {
+    padding-top: 0.18rem;
+    line-height: 100%;
+    color: #b2b2b2;
+    text-align: center;
+    font-size: 0.14rem;
+}
+
+#FAQ .slider li p::after {
+    width: 1.2rem;
+    line-height:0.3rem;
+    background: #4cc3ff;
+    text-align: center;
+    content: "转";
+    display: block;
+    margin: 0 auto;
+    font-size: 0.2rem;
+    color: #fff;
+    margin-top: 0.45rem;
+
+}
+
+#FAQ .slider li.touch p::after {
+    content: "进";
+}
+
+#feature {
+    height:7.46rem;
+    padding:0 0.3rem;
+    background-image: linear-gradient(to right bottom, #627dc4, #40444d);
+}
+
+#feature .feature-intro {
+    width: 4.2rem;
+    float: left;
+    padding-top: 0.72rem;
+
+}
+
+#feature .feature-intro .feature-intro-desc {
+    color: #fff;
+    font-size: 0.29rem;
+    line-height: 100%;
+}
+
+#feature .feature-intro .feature-intro-desc > p:nth-of-type(2) {
+    padding-top: 0.22rem;
+}
+
+#feature .feature-intro .feature-intro-text {
+    padding-top: 0.6rem;
+    font-size: 0.2rem;
+    color: #fff;
+    line-height: 150%
+
+}
+
+#feature .feature-intro .feature-intro-text p {
+    font-weight: 200;
+}
+
+
+#feature .feature-intro ul {
+    width: 3.1rem;
+    padding-top: 1.18rem;
+}
+
+#feature .feature-intro li {
+    width: 1.34rem;
+    float: left;
+    margin-right: 0.21rem;
+    margin-bottom: 0.21rem;
+    height:0.79rem;
+    background: #4cc3ff url(../images/IE.png) no-repeat center center/0.3rem 0.3rem;
+}
+
+#feature .feature-intro .fireFox {
+    background-image: url(../images/firefox.png);
+}
+
+#feature .feature-intro .chrome {
+    background-image: url(../images/chrome.png);
+}
+
+#feature .feature-intro .iphone {
+    background-image: url(../images/iphone.png);
+}
+
+#feature .feature-service {
+    padding-top: 1.19rem;
+    width: 2.7rem;
+    float: right;
+}
+
+#feature .feature-service li {
+    width: 1.6rem;
+    height:1.2rem;
+    margin-left: auto;
+    padding: 0.32rem 0 0 0.22rem;
+    font-size: 0.24rem;
+    line-height:100%;
+    background: #4cc3ff url(../images/iOS.png) no-repeat right 0.15rem bottom 0.18rem/0.32rem;
+    margin-bottom: 0.13rem;
+}
+
+#feature .feature-service .Android {
+    background-image: url(../images/Android.png);
+}
+
+#feature .feature-service .PC {
+    background-image: url(../images/PC.png);
+}
+
+#feature .feature-service .feature-service-desc {
+    padding-top: 0.82rem;
+    width:2rem;
+    margin-left: auto;
+    line-height: 150%;
+    font-size: 0.2rem;
+    color: #fff;
+    text-align: right;
+}
+
+#concat {
+    height:7.5rem;
+
+    padding: 0.76rem 0.3rem 0.95rem 0.3rem;
+}
+
+#concat .concat-top .concat-map {
+    width:3.2rem;
+    height:3.2rem;
+    float: left;
+    border: 4px solid #4cc3ff;
+    box-shadow: 1px 1px 0.4rem #d0ecfa;
+}
+
+#concat .concat-top .concat-other {
+
+    float: left;
+    padding-top: 0.48rem;
+    padding-left: 0.37rem;
+    font-size: 0.18rem;
+    color: #000;
+    line-height:100%;
+}
+
+#concat .concat-top .concat-other p + p {
+    padding-top:0.3rem;
+}
+
+#concat .concat-bottom {
+    padding-top: 1rem;
+}
+
+#concat .concat-bottom .concat-phoneNumber {
+    display: block;
+    margin: 0 auto;
+    width: 2.9rem;
+    height:0.37rem;
+}
+
+#concat .concat-bottom p {
+    text-align: center;
+}
+
+#concat .concat-bottom .text-CN {
+    padding-top: 0.38rem;
+    font-size: 0.2rem;
+}
+
+#concat .concat-bottom .text-CN span {
+    display: inline-block;
+    background-color: #4cc3ff;
+    border-radius: 50%;
+    padding: 1% 1.5%;
+}
+
+#concat .concat-bottom .text-EN {
+    padding-top: 0.18rem;
+    font-size: 0.24rem;
+    color: #999;
+}
